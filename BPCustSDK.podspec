@@ -32,8 +32,8 @@ Pod::Spec.new do |spec|
 
   spec.source            = { :http => 'https://github.com/tunteidas/BPCustSDK/releases/download/1.0.0/BPCustSDK.zip' }
 
-  spec.dependency 'BPCommonSDK', '1.0.0'
-  spec.dependency 'LivenessUtility', '1.0.12'
+  # spec.dependency 'BPCommonSDK', '1.0.0'
+  # spec.dependency 'LivenessUtility', '1.0.12'
 
   spec.vendored_frameworks = 'BPCustSDK/BioPayCustSDK.xcframework'
   spec.swift_version = "5.0"
